@@ -10,10 +10,38 @@
     <!-- Cấu hình hiển thị responsive -->
     <title>sexthu</title>
     <!-- Tiêu đề tab trình duyệt đặt là sexthu -->
+    <style>
+        /* Bắt đầu khối CSS định dạng */
+        body {
+            /* Chọn thẻ body */
+            margin: 0;
+            /* Xóa khoảng cách lề ngoài mặc định */
+            display: flex;
+            /* Bật chế độ flexbox */
+            justify-content: center;
+            /* Căn giữa nội dung theo trục ngang */
+            align-items: flex-start;
+            /* Căn nội dung sát mép trên theo trục dọc */
+            min-height: 100vh;
+            /* Chiều cao tối thiểu bằng toàn bộ khung nhìn */
+        }
+        img {
+            /* Chọn thẻ img */
+            display: block;
+            /* Hiển thị dạng khối */
+            max-width: 100%;
+            /* Chiều rộng tối đa bằng chiều rộng khung chứa */
+            height: auto;
+            /* Chiều cao tự động giữ tỷ lệ */
+            margin-top: 20px;
+            /* Khoảng cách phía trên ảnh 20px */
+        }
+    </style>
+    <!-- Kết thúc khối CSS -->
 </head>
 <body>
     <!-- Phần thân tài liệu -->
-    <h1>hello</h1>
-    <!-- Thẻ tiêu đề cấp 1 hiển thị chữ hello -->
+    <img src="https://i.ibb.co/9HyfYDnQ/your-image.jpg" alt="anh">
+    <!-- Thẻ ảnh, thay đường dẫn trực tiếp vào thuộc tính src -->
 </body>
 </html>
